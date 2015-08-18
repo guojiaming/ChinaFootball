@@ -1,0 +1,6 @@
+pod 'AVOSCloud'
+pod 'AVOSCloudCrashReporting'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
