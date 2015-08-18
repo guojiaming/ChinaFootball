@@ -26,7 +26,7 @@
 }
 
 - (void)getJSONDataWithUrl:(NSString *)URLString parameters:(NSDictionary *)parameters{
-//    [[ZCNetwork sharedInstance]setValidationTime:10];
+    [[ZCNetwork sharedInstance]setValidationTimeInternal:10];
     [[ZCNetwork sharedInstance]getJSONDataWithUrl:URLString parameters:parameters success:^(AFHTTPRequestOperation *opration, id responseObject) {
         if (self.delegate && [self.delegate respondsToSelector:@selector(requestSuccess:result:)]) {
             [self.delegate requestSuccess:_requestKey result:responseObject];
@@ -38,7 +38,7 @@
 }
 
 - (void)getImageDataWithUrl:(NSString *)URLString parameters:(NSDictionary *)parameters{
-//    [[ZCNetwork sharedInstance]setValidationTime:10];
+    [[ZCNetwork sharedInstance]setValidationTimeInternal:10];
     [[ZCNetwork sharedInstance]getJSONDataWithUrl:URLString parameters:parameters success:^(AFHTTPRequestOperation *opration, id responseObject) {
         if (self.delegate && [self.delegate respondsToSelector:@selector(requestSuccess:result:)]) {
             [self.delegate requestSuccess:_requestKey result:responseObject];
@@ -50,7 +50,7 @@
 }
 
 - (void)postDataWithUrl:(NSString *)URLString httpBody:(NSString *)jsonBody{
-//    [[ZCNetwork sharedInstance]setValidationTime:10];
+    [[ZCNetwork sharedInstance]setValidationTimeInternal:10];
     [[ZCNetwork sharedInstance]postDataWithUrl:URLString httpBody:jsonBody success:^(AFHTTPRequestOperation *opration, id responseObject) {
         if (self.delegate && [self.delegate respondsToSelector:@selector(requestSuccess:result:)]) {
             [self.delegate requestSuccess:_requestKey result:responseObject];
@@ -63,7 +63,7 @@
 }
 
 - (void)postMultiFromDataWithUrl:(NSString *)URLString FromData:(NSData *)data{
-//    [[ZCNetwork sharedInstance]setValidationTime:10];
+    [[ZCNetwork sharedInstance]setValidationTimeInternal:10];
     [[ZCNetwork sharedInstance]postMultiFromDataWithUrl:URLString FromData:data success:^(AFHTTPRequestOperation *opration, id responseObject) {
         if (self.delegate && [self.delegate respondsToSelector:@selector(requestSuccess:result:)]) {
             [self.delegate requestSuccess:_requestKey result:responseObject];

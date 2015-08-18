@@ -94,8 +94,8 @@
     
 }
 
-- (void)setValidationTimeInternal:(NSTimeInterval)time{
-    time = 10;
+- (void)setValidationTimeInternal:(NSInteger)time{
+    self.timeInternal = time;
 }
 
 @end

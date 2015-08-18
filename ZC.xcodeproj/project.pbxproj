@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2EBC6E5D1B831D49009B3545 /* ZCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC6E5C1B831D49009B3545 /* ZCNetwork.m */; };
 		2EBC6E601B832529009B3545 /* ZCRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC6E5F1B832529009B3545 /* ZCRequestHelper.m */; };
+		2EBC6E651B833A99009B3545 /* ZCJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC6E641B833A99009B3545 /* ZCJSONKit.m */; };
 		2EE993DE1B82D3F10065C4CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE993DD1B82D3F10065C4CF /* main.m */; };
 		2EE993E91B82D3F20065C4CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE993E81B82D3F20065C4CF /* Images.xcassets */; };
 		2EE993EC1B82D3F20065C4CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE993EA1B82D3F20065C4CF /* LaunchScreen.xib */; };
@@ -38,6 +39,8 @@
 		2EBC6E5E1B832529009B3545 /* ZCRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRequestHelper.h; sourceTree = "<group>"; };
 		2EBC6E5F1B832529009B3545 /* ZCRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRequestHelper.m; sourceTree = "<group>"; };
 		2EBC6E611B832A44009B3545 /* ZCNetworkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCNetworkHeader.h; sourceTree = "<group>"; };
+		2EBC6E631B833A99009B3545 /* ZCJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJSONKit.h; sourceTree = "<group>"; };
+		2EBC6E641B833A99009B3545 /* ZCJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJSONKit.m; sourceTree = "<group>"; };
 		2EE993D81B82D3F10065C4CF /* ZC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE993DC1B82D3F10065C4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE993DD1B82D3F10065C4CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EBC6E621B833A65009B3545 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC6E631B833A99009B3545 /* ZCJSONKit.h */,
+				2EBC6E641B833A99009B3545 /* ZCJSONKit.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		2EE993CF1B82D3F10065C4CF = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +120,7 @@
 		2EE993DA1B82D3F10065C4CF /* ZC */ = {
 			isa = PBXGroup;
 			children = (
+				2EBC6E621B833A65009B3545 /* JSON */,
 				2EE994091B82D5370065C4CF /* network */,
 				2EE994081B82D5110065C4CF /* config */,
 				2EE994071B82D4FA0065C4CF /* ZCLS */,
@@ -385,6 +398,7 @@
 				2EBC6E601B832529009B3545 /* ZCRequestHelper.m in Sources */,
 				2EE994281B83133A0065C4CF /* ZCLeftViewController.m in Sources */,
 				2EE994151B82F8DD0065C4CF /* ZCNavigationcontroller.m in Sources */,
+				2EBC6E651B833A99009B3545 /* ZCJSONKit.m in Sources */,
 				2EE994061B82D4DD0065C4CF /* AppDelegate.m in Sources */,
 				2EE993DE1B82D3F10065C4CF /* main.m in Sources */,
 				2EE9942B1B83171C0065C4CF /* ZCLeftView.m in Sources */,
@@ -513,6 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZC/zc.pch";
 				INFOPLIST_FILE = ZC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -525,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZC/zc.pch";
 				INFOPLIST_FILE = ZC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
