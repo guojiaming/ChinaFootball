@@ -28,6 +28,7 @@ PODS:
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
   - SVProgressHUD (1.1.3)
+  - ViewDeck (2.3.1)
 
 DEPENDENCIES:
   - AFNetworking
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - MJRefresh
   - SDWebImage
   - SVProgressHUD
+  - ViewDeck
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
@@ -44,5 +46,6 @@ SPEC CHECKSUMS:
   MJRefresh: 6eb2f61338f89f64fd628fd43debcf479381ff59
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  ViewDeck: 3e9bfcc36d889155d77ae47811a4d48714ee8d0c
 
 COCOAPODS: 0.38.2

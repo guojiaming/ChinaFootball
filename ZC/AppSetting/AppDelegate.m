@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "ZCRootViewController.h"
+#import "ZCNavigationcontroller.h"
+#import <AVOSCloud.h>
+#import <AVOSCloudCrashReporting.h>
+#import <IIViewDeckController.h>
+#import "ZCLeftViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -18,10 +25,23 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     // Override point for customization after application launch.
+    IIViewDeckController *deckController = [self generateControllerStack];
+    self.window.rootViewController = deckController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (IIViewDeckController*)generateControllerStack{
+    ZCLeftViewController *leftVC = [[ZCLeftViewController alloc]init];
+    ZCRootViewController *rootVC = [[ZCRootViewController alloc]init];
+    ZCNavigationcontroller *rootNav = [[ZCNavigationcontroller alloc]initWithRootViewController:rootVC];
+    IIViewDeckController *deckController = [[IIViewDeckController alloc]initWithCenterViewController:rootNav leftViewController:leftVC];
+    deckController.centerhiddenInteractivity = IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
+    deckController.leftSize = SCRREN_WIDTH - 200;
+//    [deckController disablePanOverViewsOfClass:NSClassFromString(@"_UINavigationContentView")];
+    return deckController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

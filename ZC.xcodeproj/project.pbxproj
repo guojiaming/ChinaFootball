@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBC6E5D1B831D49009B3545 /* ZCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC6E5C1B831D49009B3545 /* ZCNetwork.m */; };
+		2EBC6E601B832529009B3545 /* ZCRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC6E5F1B832529009B3545 /* ZCRequestHelper.m */; };
 		2EE993DE1B82D3F10065C4CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE993DD1B82D3F10065C4CF /* main.m */; };
 		2EE993E91B82D3F20065C4CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE993E81B82D3F20065C4CF /* Images.xcassets */; };
 		2EE993EC1B82D3F20065C4CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE993EA1B82D3F20065C4CF /* LaunchScreen.xib */; };
 		2EE993F81B82D3F20065C4CF /* ZCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE993F71B82D3F20065C4CF /* ZCTests.m */; };
 		2EE994061B82D4DD0065C4CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE994051B82D4DD0065C4CF /* AppDelegate.m */; };
+		2EE9940D1B82F7AA0065C4CF /* ZCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9940C1B82F7AA0065C4CF /* ZCRootViewController.m */; };
+		2EE994151B82F8DD0065C4CF /* ZCNavigationcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE994141B82F8DD0065C4CF /* ZCNavigationcontroller.m */; };
+		2EE994241B83132F0065C4CF /* ZCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE994231B83132F0065C4CF /* ZCBaseViewController.m */; };
+		2EE994281B83133A0065C4CF /* ZCLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE994271B83133A0065C4CF /* ZCLeftViewController.m */; };
+		2EE9942B1B83171C0065C4CF /* ZCLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9942A1B83171C0065C4CF /* ZCLeftView.m */; };
 		E946897896F8E18AA6F55DCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E5FD699811FD5A4B251B0C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EBC6E5B1B831D49009B3545 /* ZCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNetwork.h; sourceTree = "<group>"; };
+		2EBC6E5C1B831D49009B3545 /* ZCNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNetwork.m; sourceTree = "<group>"; };
+		2EBC6E5E1B832529009B3545 /* ZCRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRequestHelper.h; sourceTree = "<group>"; };
+		2EBC6E5F1B832529009B3545 /* ZCRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRequestHelper.m; sourceTree = "<group>"; };
+		2EBC6E611B832A44009B3545 /* ZCNetworkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCNetworkHeader.h; sourceTree = "<group>"; };
 		2EE993D81B82D3F10065C4CF /* ZC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE993DC1B82D3F10065C4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE993DD1B82D3F10065C4CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,6 +48,18 @@
 		2EE993F71B82D3F20065C4CF /* ZCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCTests.m; sourceTree = "<group>"; };
 		2EE994041B82D4DD0065C4CF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EE994051B82D4DD0065C4CF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE9940B1B82F7AA0065C4CF /* ZCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRootViewController.h; sourceTree = "<group>"; };
+		2EE9940C1B82F7AA0065C4CF /* ZCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRootViewController.m; sourceTree = "<group>"; };
+		2EE994131B82F8DD0065C4CF /* ZCNavigationcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavigationcontroller.h; sourceTree = "<group>"; };
+		2EE994141B82F8DD0065C4CF /* ZCNavigationcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavigationcontroller.m; sourceTree = "<group>"; };
+		2EE994191B8306940065C4CF /* zc.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zc.pch; sourceTree = "<group>"; };
+		2EE9941D1B8309AE0065C4CF /* ZCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZCLog.h; path = ../../../../Documents/ZCLog.h; sourceTree = "<group>"; };
+		2EE994221B83132F0065C4CF /* ZCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBaseViewController.h; sourceTree = "<group>"; };
+		2EE994231B83132F0065C4CF /* ZCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBaseViewController.m; sourceTree = "<group>"; };
+		2EE994261B83133A0065C4CF /* ZCLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLeftViewController.h; sourceTree = "<group>"; };
+		2EE994271B83133A0065C4CF /* ZCLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLeftViewController.m; sourceTree = "<group>"; };
+		2EE994291B83171C0065C4CF /* ZCLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLeftView.h; sourceTree = "<group>"; };
+		2EE9942A1B83171C0065C4CF /* ZCLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLeftView.m; sourceTree = "<group>"; };
 		48E5FD699811FD5A4B251B0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE65BD8CFE2B0D8D219E730F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EA2868E1FAAF50FB5DB76CE5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +124,7 @@
 			children = (
 				2EE993DC1B82D3F10065C4CF /* Info.plist */,
 				2EE993DD1B82D3F10065C4CF /* main.m */,
+				2EE994191B8306940065C4CF /* zc.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,6 +173,10 @@
 		2EE994071B82D4FA0065C4CF /* ZCLS */ = {
 			isa = PBXGroup;
 			children = (
+				2EE994251B83133A0065C4CF /* ZCLeftVC */,
+				2EE994211B83132F0065C4CF /* ZCBaseVC */,
+				2EE994121B82F8DD0065C4CF /* ZCNavigation */,
+				2EE9940A1B82F77E0065C4CF /* ZCRootVC */,
 			);
 			path = ZCLS;
 			sourceTree = "<group>";
@@ -155,6 +184,7 @@
 		2EE994081B82D5110065C4CF /* config */ = {
 			isa = PBXGroup;
 			children = (
+				2EE9941D1B8309AE0065C4CF /* ZCLog.h */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -162,8 +192,51 @@
 		2EE994091B82D5370065C4CF /* network */ = {
 			isa = PBXGroup;
 			children = (
+				2EBC6E5B1B831D49009B3545 /* ZCNetwork.h */,
+				2EBC6E5C1B831D49009B3545 /* ZCNetwork.m */,
+				2EBC6E5E1B832529009B3545 /* ZCRequestHelper.h */,
+				2EBC6E5F1B832529009B3545 /* ZCRequestHelper.m */,
+				2EBC6E611B832A44009B3545 /* ZCNetworkHeader.h */,
 			);
 			path = network;
+			sourceTree = "<group>";
+		};
+		2EE9940A1B82F77E0065C4CF /* ZCRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9940B1B82F7AA0065C4CF /* ZCRootViewController.h */,
+				2EE9940C1B82F7AA0065C4CF /* ZCRootViewController.m */,
+			);
+			path = ZCRootVC;
+			sourceTree = "<group>";
+		};
+		2EE994121B82F8DD0065C4CF /* ZCNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				2EE994131B82F8DD0065C4CF /* ZCNavigationcontroller.h */,
+				2EE994141B82F8DD0065C4CF /* ZCNavigationcontroller.m */,
+			);
+			path = ZCNavigation;
+			sourceTree = "<group>";
+		};
+		2EE994211B83132F0065C4CF /* ZCBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2EE994221B83132F0065C4CF /* ZCBaseViewController.h */,
+				2EE994231B83132F0065C4CF /* ZCBaseViewController.m */,
+			);
+			path = ZCBaseVC;
+			sourceTree = "<group>";
+		};
+		2EE994251B83133A0065C4CF /* ZCLeftVC */ = {
+			isa = PBXGroup;
+			children = (
+				2EE994261B83133A0065C4CF /* ZCLeftViewController.h */,
+				2EE994271B83133A0065C4CF /* ZCLeftViewController.m */,
+				2EE994291B83171C0065C4CF /* ZCLeftView.h */,
+				2EE9942A1B83171C0065C4CF /* ZCLeftView.m */,
+			);
+			path = ZCLeftVC;
 			sourceTree = "<group>";
 		};
 		64FC317F4D16DCCD3F7B8842 /* Pods */ = {
@@ -309,8 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBC6E601B832529009B3545 /* ZCRequestHelper.m in Sources */,
+				2EE994281B83133A0065C4CF /* ZCLeftViewController.m in Sources */,
+				2EE994151B82F8DD0065C4CF /* ZCNavigationcontroller.m in Sources */,
 				2EE994061B82D4DD0065C4CF /* AppDelegate.m in Sources */,
 				2EE993DE1B82D3F10065C4CF /* main.m in Sources */,
+				2EE9942B1B83171C0065C4CF /* ZCLeftView.m in Sources */,
+				2EBC6E5D1B831D49009B3545 /* ZCNetwork.m in Sources */,
+				2EE994241B83132F0065C4CF /* ZCBaseViewController.m in Sources */,
+				2EE9940D1B82F7AA0065C4CF /* ZCRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +511,7 @@
 			baseConfigurationReference = AE65BD8CFE2B0D8D219E730F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZC/zc.pch";
 				INFOPLIST_FILE = ZC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +523,7 @@
 			baseConfigurationReference = EA2868E1FAAF50FB5DB76CE5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZC/zc.pch";
 				INFOPLIST_FILE = ZC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -39,8 +39,54 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ViewDeck.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0F2B470B3460B88EA5F73DE63A660CE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1855D16F2811A263A3008DBD628F399C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38BDD2EFE93F77B7AB414E80BF645590</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5352D432641F0656C90741034E32F31E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60EC909E68C6AE32289A5E1C5E72803F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B01A976CA18DF67907D23354AFE6757</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B281DA29A9C3EDFB45BA53651F6BA611</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B76DBBAE8062AB41C031FD380B4778A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

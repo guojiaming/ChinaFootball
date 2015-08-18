@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "85198115384BE94BED5E3103"
+               BlueprintIdentifier = "28660A9957F519ED536025E8"
                BuildableName = "libAVOSCloudCrashReporting.a"
                BlueprintName = "AVOSCloudCrashReporting"
                ReferencedContainer = "container:Pods.xcodeproj">
