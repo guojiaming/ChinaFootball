@@ -25,11 +25,11 @@
 
 @property(nonatomic,assign)NSInteger requestKey;
 @property(nonatomic,assign)id<ZCRequestDelegate>delegate;
-@property(nonatomic,assign)NSInteger validationTime;
+//@property(nonatomic,assign)NSInteger validationTime;
 
 -(id)initWithKey:(NSInteger) requestKey delegate:(id <ZCRequestDelegate>)delegate;
 /**
- *
+ *get请求
  */
 - (void)getJSONDataWithUrl:(NSString*)URLString
                 parameters:(NSDictionary*)parameters;

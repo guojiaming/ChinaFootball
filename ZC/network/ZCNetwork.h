@@ -55,6 +55,6 @@ typedef void (^ZCFailResponseBlock)(NSError *error);
  */
 - (void)cancelAFURLRequest;
 
-- (void)setValidationTimeInternal:(NSInteger)time;
+- (void)setValidationTimeInternal:(NSTimeInterval)time;
 
 @end

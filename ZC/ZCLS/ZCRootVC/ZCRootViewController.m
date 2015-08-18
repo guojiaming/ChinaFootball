@@ -8,8 +8,8 @@
 
 #import "ZCRootViewController.h"
 #import <IIViewDeckController.h>
-
-@interface ZCRootViewController ()
+#import "ZCRequestHelper.h"
+@interface ZCRootViewController ()<ZCRequestDelegate>
 
 @end
 
@@ -20,6 +20,16 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"left" style:UIBarButtonItemStylePlain target:self.viewDeckController action:@selector(toggleLeftView)];
+    
+    ZCRequestHelper *request = [[ZCRequestHelper alloc] initWithKey:1 delegate:self];
+    [request getJSONDataWithUrl:@"" parameters:nil];
+}
+
+- (void)requestSuccess:(NSInteger)requestKey result:(NSObject *)request{
+    
+}
+
+- (void)requestFail:(NSInteger)requestKey error:(NSError *)error{
     
 }
 
